@@ -3,3 +3,6 @@
 
 
 This repo contains the pdf document of my Master thesis and also some additional content that was part of my work. The presentation made for my Master thesis defense is also available.
+
+
+This dissertation was done as partial requirement for obtaining the Master Degree Program in Data Science and Advanced Analytics at Nova Information Management School
