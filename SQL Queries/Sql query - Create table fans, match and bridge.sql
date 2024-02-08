@@ -64,3 +64,21 @@ CROSS JOIN Matches;
 
 UPDATE fan_match_bridge
 SET has_ticket = CASE WHEN ABS(CHECKSUM(NEWID())) % 2 = 0 THEN 0 ELSE 1 END;
+
+
+
+
+
+--Stadium occupancy table 
+
+
+CREATE TABLE stadium_occupancy (
+  id INT PRIMARY KEY,
+  section VARCHAR(50) NOT NULL,
+  seat_number INT NOT NULL,
+  is_occupied BOOLEAN DEFAULT FALSE,
+  occupant_name VARCHAR(100),
+  ticket_type VARCHAR(50),
+  match_id INT,
+  occupant_id INT
+);
