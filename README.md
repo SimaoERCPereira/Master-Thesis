@@ -2,4 +2,4 @@
 
 
 
-This repo contains the pdf document of my Master thesis and also some additional content that was part of my work. The presentation made for my PhD thesis defense is also available.
+This repo contains the pdf document of my Master thesis and also some additional content that was part of my work. The presentation made for my Master thesis defense is also available.
